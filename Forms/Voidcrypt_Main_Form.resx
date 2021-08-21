@@ -118,54 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SettingsButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAWZJREFUSEvl
-        lb1KA1EQhReJPoaPEIT1p91i/xqxWhDxHdKKNmunoIWvEC21NvYiImilhYivYKdoEz0jZ83s5K4mrBsQ
-        Dxy4y3xzbubmZuP9L/m+P52m6VmSJE/KvSAIWkTqK47jJYS+O7xIpL4wxb5jA/EekfGETx0hNI+iaB6e
-        Q9CFCS4Z7DnchhfwvA2HjHIrDMNZbPKiAt6K9Q9+VetnyWHksACcKLiv1qNY88eMLIvjfhd8C29i0lV4
-        C+s7VbPuy3EzeiAUVgyo3bXXldf6yMF+Gh9kmWhZKHZQtNPcSyCRkrIsm0H9QfPs7xBxC8CVadpgySke
-        3RcPX7JULUA3pmmNJadwZOuGv2apWoCamyTP8yk0HJgG8VjfiVhyJI/YQCg2f7sm8jsRoflQg2o9ijXf
-        ZeSwJvLuEmGTZt/CVULjbhFqvEOkvmQqxwZyg3wi9SXXFaE9HMljYTyf/up//B+Q530ADfbZf/4KkQYA
-        AAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="MyStatisticsButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAV5JREFUSEtj
-        IBV4eHjchTJpB9zd3f9DmcQDkCZa41FLSMJDzxI3N7etnp6eokD2dmRxvJYA88ROoEYxIHs3uhwWfB+o
-        Xs/BwYEHyN6GLIfPklteXl66vr6+XCAayL+JJo+MdwAdIwvEi7HIYbcEqHgi0GAJIHsDVGyjj4+PNEgc
-        pgaK/wBxOcgHQPoWkjgKRrEEaMhWZ2dnYaAFakD+ZWQ5IL4HlDcHGhgDZH8C4g9Ath+QDgbij0CMrBYF
-        Y1gCjDg+IBslTJHwLyAud3Fx4Yeq6wXif1A5nBhvxOPCQB/YAB1kh00OGybLElLxqCUkYfpYQgoAFhks
-        IE2hoaHMUCHqAmC+YAdasAXqui0gPlSKOgDqgxXAvLEcaskKEAaJQ5VQBqAWrIQZCrToCboYVCl5ABpE
-        24A5fEFDQwMTVBgMQHyg3EJoUUR+0AENiQMFES7XQn0ECrpYqBAWwMAAACOKI0KvdMXnAAAAAElFTkSu
-        QmCC
-</value>
-  </data>
-  <data name="VoidDecryptorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAYpJREFUSEvl
-        lb0vBFEUxWd9BD29RFQqGRKFYprZ3YkMiViNSkFDR2ITzfQSElpRkSBREfV2/gWJSqIQiUZDhd/jjlwv
-        87UszZ7kZPa9e8+57819b9ZpX0RR1BEEwUSlUlmBG3AJjkj496hWq9MY3sA3m+Vy+cr3/TFJ/Rkw2cTs
-        1Ta3+ELenEiaA+J5y0zzEd6r8TOvc1SkxVCr1fpY3Z0y+SLz+57ndZk8ftfVfONDXBT0YVYba7LiAUkz
-        KDH3EMfoz7DM5wPBTiy0SZEhSXPYUS9zTyq+KKF8sJNDJfxG81qID4Zh2M/4yIrVxSIfCPa0uCgpsiwW
-        +UBgLluiURbZ4bhYZMN13W5WdJ5kksNr5KVPlwzQ1B6SLyxxEZoLOyU26TBnn8QTJSxKU2BNbNIhO7hU
-        wqK8hTNikw4565kFuGQH9GmBxu4yPua5xTg0WrFJh2kyojNtGBOjbZ7ms77KZ6ZTJM2D1axrY4ut+b9g
-        tVGCecw/K3Iqodbhv4pMYmyaGzP/OLYZHOcdwLaNfU8k0s8AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="VoidEncryptorButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAWxJREFUSEvl
-        lL8uBGEUxUfDSxCNF+AdZmZn+olCNCJUEo0sOhGRiFeQTVYjGwWdIJvwApuwhRAVJQoKCsLvrlOsyXyx
-        30pkw0lOvtx7zzl3Mv+CnkEcx2OwAq/gg85KkiSjkvwIfVEUrRL4Bt8LaP0V033KuwABy22B1TAMI86R
-        UqkUs3y7bVaWxQ9pmg5jflHItNpfwKIZzZ+5dYNqdw6udkkBx2oVgnnddOgX1OocGHfNzNXOqVUINPOm
-        gzW1Ogem1hWyZFytQthcS+pqfQ/u7QDGRUz3WnLGeeSi5rbE9OUsy/oV5QbCTZm6Iks3FOUGwkbe6MmG
-        otxA1MyZfNlUlBsmypl82ZtLbniQ9vt4Vf0It+CTautX0dyqNvotwTyh3r56a1bzda+r3tN8UrX/EnhC
-        4Cxn65uBFyye4rxUfaf5qWrjP37w3fBXlpwryg1EtZzJlzuKcoO3ZwjhIW/NtS/xHZhfUX8OQfABhFEI
-        UNGIAq0AAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="MaximizeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAALNJREFUOE/t

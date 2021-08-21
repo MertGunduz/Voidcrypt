@@ -63,9 +63,49 @@ namespace Voidcrypt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Voidcrypt_KeyIcon {
+            get {
+                object obj = ResourceManager.GetObject("Voidcrypt_KeyIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Voidcrypt_LockIcon {
+            get {
+                object obj = ResourceManager.GetObject("Voidcrypt_LockIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Voidcrypt_Logo {
             get {
                 object obj = ResourceManager.GetObject("Voidcrypt_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Voidcrypt_SettingsIcon {
+            get {
+                object obj = ResourceManager.GetObject("Voidcrypt_SettingsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Voidcrypt_StatisticsIcon {
+            get {
+                object obj = ResourceManager.GetObject("Voidcrypt_StatisticsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

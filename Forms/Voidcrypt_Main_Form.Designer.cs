@@ -43,11 +43,11 @@ namespace Voidcrypt.Forms
             this.MaximizeButton = new System.Windows.Forms.Button();
             this.MinimizeButton = new System.Windows.Forms.Button();
             this.Top_Panel = new System.Windows.Forms.Panel();
-            this.voidEncryptor_UserControl1 = new Voidcrypt.User_Controls.VoidEncryptor_UserControl();
-            this.voidDecryptor_UserControl1 = new Voidcrypt.User_Controls.VoidDecryptor_UserControl();
-            this.Seperator_Panel = new System.Windows.Forms.Panel();
             this.ContainerPanel = new System.Windows.Forms.Panel();
             this.MainHeaderLabel = new System.Windows.Forms.Label();
+            this.Seperator_Panel = new System.Windows.Forms.Panel();
+            this.voidEncryptor_UserControl1 = new Voidcrypt.User_Controls.VoidEncryptor_UserControl();
+            this.voidDecryptor_UserControl1 = new Voidcrypt.User_Controls.VoidDecryptor_UserControl();
             this.Voidcrypt_LeftPanel.SuspendLayout();
             this.Voidcrypt_ExpandLeftPanel.SuspendLayout();
             this.Voidcrypt_TopLogoPanel.SuspendLayout();
@@ -95,7 +95,7 @@ namespace Voidcrypt.Forms
             this.SettingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SettingsButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SettingsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.SettingsButton.Image = ((System.Drawing.Image)(resources.GetObject("SettingsButton.Image")));
+            this.SettingsButton.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_SettingsIcon;
             this.SettingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.SettingsButton.Location = new System.Drawing.Point(0, 640);
             this.SettingsButton.Name = "SettingsButton";
@@ -114,7 +114,7 @@ namespace Voidcrypt.Forms
             this.MyStatisticsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MyStatisticsButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MyStatisticsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.MyStatisticsButton.Image = ((System.Drawing.Image)(resources.GetObject("MyStatisticsButton.Image")));
+            this.MyStatisticsButton.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_StatisticsIcon;
             this.MyStatisticsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.MyStatisticsButton.Location = new System.Drawing.Point(0, 265);
             this.MyStatisticsButton.Name = "MyStatisticsButton";
@@ -133,7 +133,7 @@ namespace Voidcrypt.Forms
             this.VoidDecryptorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.VoidDecryptorButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.VoidDecryptorButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.VoidDecryptorButton.Image = ((System.Drawing.Image)(resources.GetObject("VoidDecryptorButton.Image")));
+            this.VoidDecryptorButton.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_KeyIcon;
             this.VoidDecryptorButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.VoidDecryptorButton.Location = new System.Drawing.Point(0, 217);
             this.VoidDecryptorButton.Name = "VoidDecryptorButton";
@@ -152,7 +152,7 @@ namespace Voidcrypt.Forms
             this.VoidEncryptorButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.VoidEncryptorButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.VoidEncryptorButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.VoidEncryptorButton.Image = ((System.Drawing.Image)(resources.GetObject("VoidEncryptorButton.Image")));
+            this.VoidEncryptorButton.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_LockIcon;
             this.VoidEncryptorButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.VoidEncryptorButton.Location = new System.Drawing.Point(0, 169);
             this.VoidEncryptorButton.Name = "VoidEncryptorButton";
@@ -231,33 +231,6 @@ namespace Voidcrypt.Forms
             this.Top_Panel.Size = new System.Drawing.Size(1045, 71);
             this.Top_Panel.TabIndex = 11;
             // 
-            // voidEncryptor_UserControl1
-            // 
-            this.voidEncryptor_UserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.voidEncryptor_UserControl1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.voidEncryptor_UserControl1.Location = new System.Drawing.Point(198, 71);
-            this.voidEncryptor_UserControl1.Name = "voidEncryptor_UserControl1";
-            this.voidEncryptor_UserControl1.Size = new System.Drawing.Size(1045, 617);
-            this.voidEncryptor_UserControl1.TabIndex = 10;
-            // 
-            // voidDecryptor_UserControl1
-            // 
-            this.voidDecryptor_UserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.voidDecryptor_UserControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.voidDecryptor_UserControl1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.voidDecryptor_UserControl1.Location = new System.Drawing.Point(198, 71);
-            this.voidDecryptor_UserControl1.Name = "voidDecryptor_UserControl1";
-            this.voidDecryptor_UserControl1.Size = new System.Drawing.Size(1045, 617);
-            this.voidDecryptor_UserControl1.TabIndex = 9;
-            // 
-            // Seperator_Panel
-            // 
-            this.Seperator_Panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Seperator_Panel.Location = new System.Drawing.Point(0, 0);
-            this.Seperator_Panel.Name = "Seperator_Panel";
-            this.Seperator_Panel.Size = new System.Drawing.Size(10, 71);
-            this.Seperator_Panel.TabIndex = 9;
-            // 
             // ContainerPanel
             // 
             this.ContainerPanel.Controls.Add(this.MainHeaderLabel);
@@ -277,6 +250,33 @@ namespace Voidcrypt.Forms
             this.MainHeaderLabel.TabIndex = 12;
             this.MainHeaderLabel.Text = "Void Encryptor";
             this.MainHeaderLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Seperator_Panel
+            // 
+            this.Seperator_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Seperator_Panel.Location = new System.Drawing.Point(0, 0);
+            this.Seperator_Panel.Name = "Seperator_Panel";
+            this.Seperator_Panel.Size = new System.Drawing.Size(10, 71);
+            this.Seperator_Panel.TabIndex = 9;
+            // 
+            // voidEncryptor_UserControl1
+            // 
+            this.voidEncryptor_UserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.voidEncryptor_UserControl1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.voidEncryptor_UserControl1.Location = new System.Drawing.Point(198, 71);
+            this.voidEncryptor_UserControl1.Name = "voidEncryptor_UserControl1";
+            this.voidEncryptor_UserControl1.Size = new System.Drawing.Size(1045, 617);
+            this.voidEncryptor_UserControl1.TabIndex = 10;
+            // 
+            // voidDecryptor_UserControl1
+            // 
+            this.voidDecryptor_UserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.voidDecryptor_UserControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.voidDecryptor_UserControl1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.voidDecryptor_UserControl1.Location = new System.Drawing.Point(198, 71);
+            this.voidDecryptor_UserControl1.Name = "voidDecryptor_UserControl1";
+            this.voidDecryptor_UserControl1.Size = new System.Drawing.Size(1045, 617);
+            this.voidDecryptor_UserControl1.TabIndex = 9;
             // 
             // Voidcrypt_Main_Form
             // 
