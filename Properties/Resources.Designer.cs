@@ -63,6 +63,16 @@ namespace Voidcrypt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Voidcrypt_ExitIcon {
+            get {
+                object obj = ResourceManager.GetObject("Voidcrypt_ExitIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Voidcrypt_KeyIcon {
             get {
                 object obj = ResourceManager.GetObject("Voidcrypt_KeyIcon", resourceCulture);
@@ -86,6 +96,16 @@ namespace Voidcrypt.Properties {
         internal static System.Drawing.Bitmap Voidcrypt_Logo {
             get {
                 object obj = ResourceManager.GetObject("Voidcrypt_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Voidcrypt_MinimizeIcon {
+            get {
+                object obj = ResourceManager.GetObject("Voidcrypt_MinimizeIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

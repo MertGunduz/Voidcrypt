@@ -116,6 +116,8 @@
     <None Include="Resources\Voidcrypt_LockIcon.png" />
     <None Include="Resources\Voidcrypt_SettingsIcon.png" />
     <None Include="Resources\Voidcrypt_StatisticsIcon.png" />
+    <None Include="Resources\Voidcrypt_ExitIcon.png" />
+    <None Include="Resources\Voidcrypt_MinimizeIcon.png" />
     <Content Include="Voidcrypt_Logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
