@@ -38,19 +38,20 @@ namespace Voidcrypt.Forms
             this.VoidDecryptorButton = new System.Windows.Forms.Button();
             this.VoidEncryptorButton = new System.Windows.Forms.Button();
             this.Voidcrypt_TopLogoPanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Logo_Label = new System.Windows.Forms.Label();
             this.Void_IDE_TopLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.MaximizeButton = new System.Windows.Forms.Button();
             this.MinimizeButton = new System.Windows.Forms.Button();
-            this.MainHeaderLabel = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.Top_Panel = new System.Windows.Forms.Panel();
             this.voidEncryptor_UserControl1 = new Voidcrypt.User_Controls.VoidEncryptor_UserControl();
             this.voidDecryptor_UserControl1 = new Voidcrypt.User_Controls.VoidDecryptor_UserControl();
+            this.Seperator_Panel = new System.Windows.Forms.Panel();
+            this.MainHeaderLabel = new System.Windows.Forms.Label();
             this.Voidcrypt_LeftPanel.SuspendLayout();
             this.Voidcrypt_ExpandLeftPanel.SuspendLayout();
             this.Voidcrypt_TopLogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Void_IDE_TopLogoPictureBox)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.Top_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // Voidcrypt_LeftPanel
@@ -163,7 +164,7 @@ namespace Voidcrypt.Forms
             // 
             // Voidcrypt_TopLogoPanel
             // 
-            this.Voidcrypt_TopLogoPanel.Controls.Add(this.label1);
+            this.Voidcrypt_TopLogoPanel.Controls.Add(this.Logo_Label);
             this.Voidcrypt_TopLogoPanel.Controls.Add(this.Void_IDE_TopLogoPictureBox);
             this.Voidcrypt_TopLogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.Voidcrypt_TopLogoPanel.Location = new System.Drawing.Point(0, 0);
@@ -171,16 +172,16 @@ namespace Voidcrypt.Forms
             this.Voidcrypt_TopLogoPanel.Size = new System.Drawing.Size(198, 169);
             this.Voidcrypt_TopLogoPanel.TabIndex = 0;
             // 
-            // label1
+            // Logo_Label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.label1.Location = new System.Drawing.Point(57, 140);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 19);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Voidcrypt";
+            this.Logo_Label.AutoSize = true;
+            this.Logo_Label.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Logo_Label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.Logo_Label.Location = new System.Drawing.Point(57, 140);
+            this.Logo_Label.Name = "Logo_Label";
+            this.Logo_Label.Size = new System.Drawing.Size(84, 19);
+            this.Logo_Label.TabIndex = 2;
+            this.Logo_Label.Text = "Voidcrypt";
             // 
             // Void_IDE_TopLogoPictureBox
             // 
@@ -216,27 +217,17 @@ namespace Voidcrypt.Forms
             this.MinimizeButton.UseVisualStyleBackColor = true;
             this.MinimizeButton.Click += new System.EventHandler(this.MinimizeButton_Click);
             // 
-            // MainHeaderLabel
+            // Top_Panel
             // 
-            this.MainHeaderLabel.AutoSize = true;
-            this.MainHeaderLabel.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MainHeaderLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.MainHeaderLabel.Location = new System.Drawing.Point(22, 19);
-            this.MainHeaderLabel.Name = "MainHeaderLabel";
-            this.MainHeaderLabel.Size = new System.Drawing.Size(207, 32);
-            this.MainHeaderLabel.TabIndex = 3;
-            this.MainHeaderLabel.Text = "Void Encryptor";
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.MaximizeButton);
-            this.panel1.Controls.Add(this.MainHeaderLabel);
-            this.panel1.Controls.Add(this.MinimizeButton);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(198, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1045, 71);
-            this.panel1.TabIndex = 11;
+            this.Top_Panel.Controls.Add(this.MainHeaderLabel);
+            this.Top_Panel.Controls.Add(this.Seperator_Panel);
+            this.Top_Panel.Controls.Add(this.MaximizeButton);
+            this.Top_Panel.Controls.Add(this.MinimizeButton);
+            this.Top_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Top_Panel.Location = new System.Drawing.Point(198, 0);
+            this.Top_Panel.Name = "Top_Panel";
+            this.Top_Panel.Size = new System.Drawing.Size(1045, 71);
+            this.Top_Panel.TabIndex = 11;
             // 
             // voidEncryptor_UserControl1
             // 
@@ -257,12 +248,32 @@ namespace Voidcrypt.Forms
             this.voidDecryptor_UserControl1.Size = new System.Drawing.Size(1045, 617);
             this.voidDecryptor_UserControl1.TabIndex = 9;
             // 
+            // Seperator_Panel
+            // 
+            this.Seperator_Panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Seperator_Panel.Location = new System.Drawing.Point(0, 0);
+            this.Seperator_Panel.Name = "Seperator_Panel";
+            this.Seperator_Panel.Size = new System.Drawing.Size(10, 71);
+            this.Seperator_Panel.TabIndex = 9;
+            // 
+            // MainHeaderLabel
+            // 
+            this.MainHeaderLabel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MainHeaderLabel.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MainHeaderLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.MainHeaderLabel.Location = new System.Drawing.Point(10, 0);
+            this.MainHeaderLabel.Name = "MainHeaderLabel";
+            this.MainHeaderLabel.Size = new System.Drawing.Size(272, 71);
+            this.MainHeaderLabel.TabIndex = 10;
+            this.MainHeaderLabel.Text = "Void Encryptor";
+            this.MainHeaderLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Voidcrypt_Main_Form
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(1243, 688);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Top_Panel);
             this.Controls.Add(this.voidEncryptor_UserControl1);
             this.Controls.Add(this.voidDecryptor_UserControl1);
             this.Controls.Add(this.Voidcrypt_LeftPanel);
@@ -278,8 +289,7 @@ namespace Voidcrypt.Forms
             this.Voidcrypt_TopLogoPanel.ResumeLayout(false);
             this.Voidcrypt_TopLogoPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Void_IDE_TopLogoPictureBox)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Top_Panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -294,13 +304,14 @@ namespace Voidcrypt.Forms
         private System.Windows.Forms.Button VoidDecryptorButton;
         private System.Windows.Forms.Button VoidEncryptorButton;
         private System.Windows.Forms.Panel Voidcrypt_TopLogoPanel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Logo_Label;
         private System.Windows.Forms.PictureBox Void_IDE_TopLogoPictureBox;
         private System.Windows.Forms.Button MaximizeButton;
         private System.Windows.Forms.Button MinimizeButton;
         private User_Controls.VoidDecryptor_UserControl voidDecryptor_UserControl1;
         private User_Controls.VoidEncryptor_UserControl voidEncryptor_UserControl1;
+        private System.Windows.Forms.Panel Top_Panel;
         private System.Windows.Forms.Label MainHeaderLabel;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel Seperator_Panel;
     }
 }
