@@ -187,7 +187,7 @@ namespace Voidcrypt.Forms
             // 
             // Void_IDE_TopLogoPictureBox
             // 
-            this.Void_IDE_TopLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Void_IDE_TopLogoPictureBox.Image")));
+            this.Void_IDE_TopLogoPictureBox.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_Logo;
             this.Void_IDE_TopLogoPictureBox.Location = new System.Drawing.Point(37, 12);
             this.Void_IDE_TopLogoPictureBox.Name = "Void_IDE_TopLogoPictureBox";
             this.Void_IDE_TopLogoPictureBox.Size = new System.Drawing.Size(125, 125);
@@ -264,7 +264,7 @@ namespace Voidcrypt.Forms
             this.ContainerPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.ContainerPanel.Location = new System.Drawing.Point(10, 0);
             this.ContainerPanel.Name = "ContainerPanel";
-            this.ContainerPanel.Size = new System.Drawing.Size(390, 71);
+            this.ContainerPanel.Size = new System.Drawing.Size(329, 71);
             this.ContainerPanel.TabIndex = 12;
             // 
             // MainHeaderLabel
