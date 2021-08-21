@@ -1,0 +1,12 @@
+C:\Users\u\source\repos\Voidcrypt\bin\Debug\Voidcrypt.exe.config
+C:\Users\u\source\repos\Voidcrypt\bin\Debug\Voidcrypt.exe
+C:\Users\u\source\repos\Voidcrypt\bin\Debug\Voidcrypt.pdb
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.Properties.Resources.resources
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.csproj.GenerateResource.cache
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.csproj.CoreCompileInputs.cache
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.exe
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.pdb
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.Forms.Voidcrypt_Main_Form.resources
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.VoidEncryptor_UserControl.resources
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.MyStatistics_UserControl.resources
+C:\Users\u\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.VoidDecryptor_UserControl.resources
