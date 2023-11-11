@@ -93,7 +93,7 @@ namespace Voidcrypt.User_Controls
             this.decrypt_textbox.TabIndex = 5;
             this.decrypt_textbox.Text = "DECRYPT\r\n\r\n(BASE64)";
             this.decrypt_textbox.UseVisualStyleBackColor = false;
-            this.decrypt_textbox.Click += new System.EventHandler(this.DecryptToNormalLangButton_Click);
+            this.decrypt_textbox.Click += new System.EventHandler(this.decrypt_textbox_Click);
             // 
             // RightPanel
             // 

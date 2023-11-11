@@ -92,7 +92,7 @@ namespace Voidcrypt.User_Controls
             this.encrypt_button.TabIndex = 5;
             this.encrypt_button.Text = "ENCRYPT\r\n\r\n(BASE64)";
             this.encrypt_button.UseVisualStyleBackColor = false;
-            this.encrypt_button.Click += new System.EventHandler(this.EncryptToVoidLangButton_Click);
+            this.encrypt_button.Click += new System.EventHandler(this.encrypt_button_Click);
             // 
             // RightPanel
             // 

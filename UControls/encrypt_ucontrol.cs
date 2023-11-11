@@ -6,24 +6,23 @@ namespace Voidcrypt.User_Controls
 {
     public partial class encrypt_ucontrol : UserControl
     {
-        // Text Data
-        string normalText;
-        string encryptedText;
+        string normal_text;
+        string encrypted_text;
 
         public encrypt_ucontrol()
         {
             InitializeComponent();
         }
 
-        private void EncryptToVoidLangButton_Click(object sender, EventArgs e)
+        private void encrypt_button_Click(object sender, EventArgs e)
         {
-            normalText = regular_textbox.Text;
+            normal_text = regular_textbox.Text;
 
-            byte[] encryptedBits = ASCIIEncoding.ASCII.GetBytes(normalText);
+            byte[] encrypted_bits = ASCIIEncoding.ASCII.GetBytes(normal_text);
 
-            encryptedText = Convert.ToBase64String(encryptedBits);
+            encrypted_text = Convert.ToBase64String(encrypted_bits);
 
-            encrypted_textbox.Text = encryptedText;
+            encrypted_textbox.Text = encrypted_text;
         }
     }
 }

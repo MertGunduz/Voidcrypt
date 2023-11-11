@@ -6,7 +6,6 @@ namespace Voidcrypt.User_Controls
 {
     public partial class decrypt_ucontrol : UserControl
     {
-        // Text Data
         string encrypted_text;
         string decrypted_text;
 
@@ -16,7 +15,7 @@ namespace Voidcrypt.User_Controls
             InitializeComponent();
         }
 
-        private void DecryptToNormalLangButton_Click(object sender, EventArgs e)
+        private void decrypt_textbox_Click(object sender, EventArgs e)
         {
             encrypted_text = encrypted_textbox.Text;
 
