@@ -57,17 +57,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User Controls\VoidDecryptor_UserControl.cs">
+    <Compile Include="UControls\decrypt_ucontrol.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User Controls\VoidDecryptor_UserControl.Designer.cs">
-      <DependentUpon>VoidDecryptor_UserControl.cs</DependentUpon>
+    <Compile Include="UControls\decrypt_ucontrol.Designer.cs">
+      <DependentUpon>decrypt_ucontrol.cs</DependentUpon>
     </Compile>
-    <Compile Include="User Controls\VoidEncryptor_UserControl.cs">
+    <Compile Include="UControls\encrypt_ucontrol.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User Controls\VoidEncryptor_UserControl.Designer.cs">
-      <DependentUpon>VoidEncryptor_UserControl.cs</DependentUpon>
+    <Compile Include="UControls\encrypt_ucontrol.Designer.cs">
+      <DependentUpon>encrypt_ucontrol.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\Voidcrypt_Main_Form.resx">
       <DependentUpon>Voidcrypt_Main_Form.cs</DependentUpon>
@@ -82,11 +82,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="User Controls\VoidDecryptor_UserControl.resx">
-      <DependentUpon>VoidDecryptor_UserControl.cs</DependentUpon>
+    <EmbeddedResource Include="UControls\decrypt_ucontrol.resx">
+      <DependentUpon>decrypt_ucontrol.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User Controls\VoidEncryptor_UserControl.resx">
-      <DependentUpon>VoidEncryptor_UserControl.cs</DependentUpon>
+    <EmbeddedResource Include="UControls\encrypt_ucontrol.resx">
+      <DependentUpon>encrypt_ucontrol.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,7 +1,7 @@
 ﻿
 namespace Voidcrypt.User_Controls
 {
-    partial class VoidEncryptor_UserControl
+    partial class encrypt_ucontrol
     {
         /// <summary> 
         /// Required designer variable.
@@ -32,14 +32,14 @@ namespace Voidcrypt.User_Controls
             this.MidExpandPanel = new System.Windows.Forms.Panel();
             this.MidSmallPanel = new System.Windows.Forms.Panel();
             this.MidSmallPanelExpand = new System.Windows.Forms.Panel();
-            this.EncryptToVoidLangButton = new System.Windows.Forms.Button();
+            this.encrypt_button = new System.Windows.Forms.Button();
             this.RightPanel = new System.Windows.Forms.Panel();
             this.RightPanelBottomExpand = new System.Windows.Forms.Panel();
-            this.EncryptedTextRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.encrypted_textbox = new System.Windows.Forms.RichTextBox();
             this.EncryptedTextLabel = new System.Windows.Forms.Label();
             this.LeftPanel = new System.Windows.Forms.Panel();
             this.LeftPanelBottomExpand = new System.Windows.Forms.Panel();
-            this.NormalTextRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.regular_textbox = new System.Windows.Forms.RichTextBox();
             this.NormalTextLabel = new System.Windows.Forms.Label();
             this.MidExpandPanel.SuspendLayout();
             this.MidSmallPanel.SuspendLayout();
@@ -71,28 +71,28 @@ namespace Voidcrypt.User_Controls
             // 
             // MidSmallPanelExpand
             // 
-            this.MidSmallPanelExpand.Controls.Add(this.EncryptToVoidLangButton);
+            this.MidSmallPanelExpand.Controls.Add(this.encrypt_button);
             this.MidSmallPanelExpand.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MidSmallPanelExpand.Location = new System.Drawing.Point(0, 0);
             this.MidSmallPanelExpand.Name = "MidSmallPanelExpand";
             this.MidSmallPanelExpand.Size = new System.Drawing.Size(224, 591);
             this.MidSmallPanelExpand.TabIndex = 0;
             // 
-            // EncryptToVoidLangButton
+            // encrypt_button
             // 
-            this.EncryptToVoidLangButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.EncryptToVoidLangButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EncryptToVoidLangButton.FlatAppearance.BorderSize = 0;
-            this.EncryptToVoidLangButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EncryptToVoidLangButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.EncryptToVoidLangButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.EncryptToVoidLangButton.Location = new System.Drawing.Point(0, 0);
-            this.EncryptToVoidLangButton.Name = "EncryptToVoidLangButton";
-            this.EncryptToVoidLangButton.Size = new System.Drawing.Size(224, 591);
-            this.EncryptToVoidLangButton.TabIndex = 5;
-            this.EncryptToVoidLangButton.Text = "Encrypt To Void Lang";
-            this.EncryptToVoidLangButton.UseVisualStyleBackColor = false;
-            this.EncryptToVoidLangButton.Click += new System.EventHandler(this.EncryptToVoidLangButton_Click);
+            this.encrypt_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.encrypt_button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.encrypt_button.FlatAppearance.BorderSize = 0;
+            this.encrypt_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.encrypt_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.encrypt_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.encrypt_button.Location = new System.Drawing.Point(0, 0);
+            this.encrypt_button.Name = "encrypt_button";
+            this.encrypt_button.Size = new System.Drawing.Size(224, 591);
+            this.encrypt_button.TabIndex = 5;
+            this.encrypt_button.Text = "ENCRYPT\r\n\r\n(BASE64)";
+            this.encrypt_button.UseVisualStyleBackColor = false;
+            this.encrypt_button.Click += new System.EventHandler(this.EncryptToVoidLangButton_Click);
             // 
             // RightPanel
             // 
@@ -105,7 +105,7 @@ namespace Voidcrypt.User_Controls
             // 
             // RightPanelBottomExpand
             // 
-            this.RightPanelBottomExpand.Controls.Add(this.EncryptedTextRichTextBox);
+            this.RightPanelBottomExpand.Controls.Add(this.encrypted_textbox);
             this.RightPanelBottomExpand.Controls.Add(this.EncryptedTextLabel);
             this.RightPanelBottomExpand.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RightPanelBottomExpand.Location = new System.Drawing.Point(0, 0);
@@ -113,24 +113,22 @@ namespace Voidcrypt.User_Controls
             this.RightPanelBottomExpand.Size = new System.Drawing.Size(392, 591);
             this.RightPanelBottomExpand.TabIndex = 2;
             // 
-            // EncryptedTextRichTextBox
+            // encrypted_textbox
             // 
-            this.EncryptedTextRichTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.EncryptedTextRichTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.EncryptedTextRichTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.EncryptedTextRichTextBox.Location = new System.Drawing.Point(16, 55);
-            this.EncryptedTextRichTextBox.Name = "EncryptedTextRichTextBox";
-            this.EncryptedTextRichTextBox.Size = new System.Drawing.Size(360, 522);
-            this.EncryptedTextRichTextBox.TabIndex = 1;
-            this.EncryptedTextRichTextBox.Text = "***********************************************************\nEncrypted Text\n******" +
-    "*****************************************************";
-            this.EncryptedTextRichTextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EncryptedTextRichTextBox_MouseClick);
+            this.encrypted_textbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.encrypted_textbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.encrypted_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.encrypted_textbox.Location = new System.Drawing.Point(16, 55);
+            this.encrypted_textbox.Name = "encrypted_textbox";
+            this.encrypted_textbox.Size = new System.Drawing.Size(360, 522);
+            this.encrypted_textbox.TabIndex = 1;
+            this.encrypted_textbox.Text = "ENCRYPTED TEXT";
             // 
             // EncryptedTextLabel
             // 
             this.EncryptedTextLabel.Dock = System.Windows.Forms.DockStyle.Top;
             this.EncryptedTextLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EncryptedTextLabel.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.EncryptedTextLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.EncryptedTextLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
             this.EncryptedTextLabel.Location = new System.Drawing.Point(0, 0);
             this.EncryptedTextLabel.Name = "EncryptedTextLabel";
@@ -150,7 +148,7 @@ namespace Voidcrypt.User_Controls
             // 
             // LeftPanelBottomExpand
             // 
-            this.LeftPanelBottomExpand.Controls.Add(this.NormalTextRichTextBox);
+            this.LeftPanelBottomExpand.Controls.Add(this.regular_textbox);
             this.LeftPanelBottomExpand.Controls.Add(this.NormalTextLabel);
             this.LeftPanelBottomExpand.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LeftPanelBottomExpand.Location = new System.Drawing.Point(0, 0);
@@ -158,24 +156,22 @@ namespace Voidcrypt.User_Controls
             this.LeftPanelBottomExpand.Size = new System.Drawing.Size(392, 591);
             this.LeftPanelBottomExpand.TabIndex = 1;
             // 
-            // NormalTextRichTextBox
+            // regular_textbox
             // 
-            this.NormalTextRichTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.NormalTextRichTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.NormalTextRichTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.NormalTextRichTextBox.Location = new System.Drawing.Point(16, 55);
-            this.NormalTextRichTextBox.Name = "NormalTextRichTextBox";
-            this.NormalTextRichTextBox.Size = new System.Drawing.Size(360, 522);
-            this.NormalTextRichTextBox.TabIndex = 2;
-            this.NormalTextRichTextBox.Text = "***********************************************************\nNormal Text\n*********" +
-    "**************************************************";
-            this.NormalTextRichTextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NormalTextRichTextBox_MouseClick);
+            this.regular_textbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.regular_textbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.regular_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
+            this.regular_textbox.Location = new System.Drawing.Point(16, 55);
+            this.regular_textbox.Name = "regular_textbox";
+            this.regular_textbox.Size = new System.Drawing.Size(360, 522);
+            this.regular_textbox.TabIndex = 2;
+            this.regular_textbox.Text = "NORMAL TEXT";
             // 
             // NormalTextLabel
             // 
             this.NormalTextLabel.Dock = System.Windows.Forms.DockStyle.Top;
             this.NormalTextLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NormalTextLabel.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.NormalTextLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.NormalTextLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
             this.NormalTextLabel.Location = new System.Drawing.Point(0, 0);
             this.NormalTextLabel.Name = "NormalTextLabel";
@@ -189,7 +185,7 @@ namespace Voidcrypt.User_Controls
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.Controls.Add(this.MidExpandPanel);
-            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "VoidEncryptor_UserControl";
             this.Size = new System.Drawing.Size(1045, 617);
             this.MidExpandPanel.ResumeLayout(false);
@@ -212,10 +208,10 @@ namespace Voidcrypt.User_Controls
         private System.Windows.Forms.Label EncryptedTextLabel;
         private System.Windows.Forms.Panel RightPanelBottomExpand;
         private System.Windows.Forms.Panel LeftPanelBottomExpand;
-        private System.Windows.Forms.RichTextBox EncryptedTextRichTextBox;
-        private System.Windows.Forms.RichTextBox NormalTextRichTextBox;
+        private System.Windows.Forms.RichTextBox encrypted_textbox;
+        private System.Windows.Forms.RichTextBox regular_textbox;
         private System.Windows.Forms.Panel MidSmallPanel;
         private System.Windows.Forms.Panel MidSmallPanelExpand;
-        private System.Windows.Forms.Button EncryptToVoidLangButton;
+        private System.Windows.Forms.Button encrypt_button;
     }
 }

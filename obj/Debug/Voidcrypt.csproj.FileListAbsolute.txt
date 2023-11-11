@@ -17,9 +17,9 @@ C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.csproj.AssemblyReferen
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.csproj.SuggestedBindingRedirects.cache
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.Forms.Voidcrypt_Main_Form.resources
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.Properties.Resources.resources
-C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.VoidDecryptor_UserControl.resources
-C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.VoidEncryptor_UserControl.resources
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.csproj.GenerateResource.cache
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.csproj.CoreCompileInputs.cache
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.exe
 C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.pdb
+C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.decrypt_ucontrol.resources
+C:\Users\upvot\source\repos\Voidcrypt\obj\Debug\Voidcrypt.User_Controls.encrypt_ucontrol.resources
