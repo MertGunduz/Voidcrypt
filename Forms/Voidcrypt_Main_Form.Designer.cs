@@ -32,7 +32,7 @@ namespace Voidcrypt.Forms
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Voidcrypt_Main_Form));
             this.Voidcrypt_LeftPanel = new System.Windows.Forms.Panel();
             this.Voidcrypt_ExpandLeftPanel = new System.Windows.Forms.Panel();
-            this.SideNavigationPanel = new System.Windows.Forms.Panel();
+            this.nav_panel = new System.Windows.Forms.Panel();
             this.settings_button = new System.Windows.Forms.Button();
             this.decryptor_button = new System.Windows.Forms.Button();
             this.encryptor_button = new System.Windows.Forms.Button();
@@ -40,10 +40,13 @@ namespace Voidcrypt.Forms
             this.Logo_Label = new System.Windows.Forms.Label();
             this.Void_IDE_TopLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.Top_Panel = new System.Windows.Forms.Panel();
+            this.encrypt_ucontrol1 = new Voidcrypt.User_Controls.encrypt_ucontrol();
+            this.decrypt_ucontrol1 = new Voidcrypt.User_Controls.decrypt_ucontrol();
             this.Voidcrypt_LeftPanel.SuspendLayout();
             this.Voidcrypt_ExpandLeftPanel.SuspendLayout();
             this.Voidcrypt_TopLogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Void_IDE_TopLogoPictureBox)).BeginInit();
+            this.Top_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // Voidcrypt_LeftPanel
@@ -52,13 +55,13 @@ namespace Voidcrypt.Forms
             this.Voidcrypt_LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.Voidcrypt_LeftPanel.Location = new System.Drawing.Point(0, 0);
             this.Voidcrypt_LeftPanel.Name = "Voidcrypt_LeftPanel";
-            this.Voidcrypt_LeftPanel.Size = new System.Drawing.Size(198, 688);
+            this.Voidcrypt_LeftPanel.Size = new System.Drawing.Size(198, 617);
             this.Voidcrypt_LeftPanel.TabIndex = 6;
             // 
             // Voidcrypt_ExpandLeftPanel
             // 
             this.Voidcrypt_ExpandLeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.Voidcrypt_ExpandLeftPanel.Controls.Add(this.SideNavigationPanel);
+            this.Voidcrypt_ExpandLeftPanel.Controls.Add(this.nav_panel);
             this.Voidcrypt_ExpandLeftPanel.Controls.Add(this.settings_button);
             this.Voidcrypt_ExpandLeftPanel.Controls.Add(this.decryptor_button);
             this.Voidcrypt_ExpandLeftPanel.Controls.Add(this.encryptor_button);
@@ -66,16 +69,16 @@ namespace Voidcrypt.Forms
             this.Voidcrypt_ExpandLeftPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Voidcrypt_ExpandLeftPanel.Location = new System.Drawing.Point(0, 0);
             this.Voidcrypt_ExpandLeftPanel.Name = "Voidcrypt_ExpandLeftPanel";
-            this.Voidcrypt_ExpandLeftPanel.Size = new System.Drawing.Size(198, 688);
+            this.Voidcrypt_ExpandLeftPanel.Size = new System.Drawing.Size(198, 617);
             this.Voidcrypt_ExpandLeftPanel.TabIndex = 0;
             // 
-            // SideNavigationPanel
+            // nav_panel
             // 
-            this.SideNavigationPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(71)))), ((int)(((byte)(71)))));
-            this.SideNavigationPanel.Location = new System.Drawing.Point(0, 169);
-            this.SideNavigationPanel.Name = "SideNavigationPanel";
-            this.SideNavigationPanel.Size = new System.Drawing.Size(3, 48);
-            this.SideNavigationPanel.TabIndex = 3;
+            this.nav_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(71)))), ((int)(((byte)(71)))));
+            this.nav_panel.Location = new System.Drawing.Point(0, 169);
+            this.nav_panel.Name = "nav_panel";
+            this.nav_panel.Size = new System.Drawing.Size(3, 48);
+            this.nav_panel.TabIndex = 3;
             // 
             // settings_button
             // 
@@ -84,16 +87,17 @@ namespace Voidcrypt.Forms
             this.settings_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settings_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.settings_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(91)))), ((int)(((byte)(91)))));
-            this.settings_button.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_SettingsIcon;
+            this.settings_button.Image = global::Voidcrypt.Properties.Resources.Voidcrypt_StatisticsIcon;
             this.settings_button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.settings_button.Location = new System.Drawing.Point(0, 640);
+            this.settings_button.Location = new System.Drawing.Point(0, 569);
             this.settings_button.Name = "settings_button";
             this.settings_button.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.settings_button.Size = new System.Drawing.Size(198, 48);
             this.settings_button.TabIndex = 5;
-            this.settings_button.Text = "Settings";
+            this.settings_button.Text = "About";
             this.settings_button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.settings_button.UseVisualStyleBackColor = true;
+            this.settings_button.Click += new System.EventHandler(this.settings_button_Click);
             // 
             // decryptor_button
             // 
@@ -112,9 +116,11 @@ namespace Voidcrypt.Forms
             this.decryptor_button.Text = "Void Decryptor";
             this.decryptor_button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.decryptor_button.UseVisualStyleBackColor = true;
+            this.decryptor_button.Click += new System.EventHandler(this.decryptor_button_Click);
             // 
             // encryptor_button
             // 
+            this.encryptor_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.encryptor_button.Dock = System.Windows.Forms.DockStyle.Top;
             this.encryptor_button.FlatAppearance.BorderSize = 0;
             this.encryptor_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -129,7 +135,8 @@ namespace Voidcrypt.Forms
             this.encryptor_button.TabIndex = 1;
             this.encryptor_button.Text = "Void Encryptor";
             this.encryptor_button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.encryptor_button.UseVisualStyleBackColor = true;
+            this.encryptor_button.UseVisualStyleBackColor = false;
+            this.encryptor_button.Click += new System.EventHandler(this.encryptor_button_Click);
             // 
             // Voidcrypt_TopLogoPanel
             // 
@@ -164,17 +171,39 @@ namespace Voidcrypt.Forms
             // 
             // Top_Panel
             // 
+            this.Top_Panel.Controls.Add(this.encrypt_ucontrol1);
+            this.Top_Panel.Controls.Add(this.decrypt_ucontrol1);
             this.Top_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Top_Panel.Location = new System.Drawing.Point(198, 0);
             this.Top_Panel.Name = "Top_Panel";
-            this.Top_Panel.Size = new System.Drawing.Size(1045, 688);
+            this.Top_Panel.Size = new System.Drawing.Size(1045, 617);
             this.Top_Panel.TabIndex = 11;
+            // 
+            // encrypt_ucontrol1
+            // 
+            this.encrypt_ucontrol1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.encrypt_ucontrol1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.encrypt_ucontrol1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.encrypt_ucontrol1.Location = new System.Drawing.Point(0, 0);
+            this.encrypt_ucontrol1.Name = "encrypt_ucontrol1";
+            this.encrypt_ucontrol1.Size = new System.Drawing.Size(1045, 617);
+            this.encrypt_ucontrol1.TabIndex = 1;
+            // 
+            // decrypt_ucontrol1
+            // 
+            this.decrypt_ucontrol1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.decrypt_ucontrol1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.decrypt_ucontrol1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.decrypt_ucontrol1.Location = new System.Drawing.Point(0, 0);
+            this.decrypt_ucontrol1.Name = "decrypt_ucontrol1";
+            this.decrypt_ucontrol1.Size = new System.Drawing.Size(1045, 617);
+            this.decrypt_ucontrol1.TabIndex = 0;
             // 
             // Voidcrypt_Main_Form
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.ClientSize = new System.Drawing.Size(1243, 688);
+            this.ClientSize = new System.Drawing.Size(1243, 617);
             this.Controls.Add(this.Top_Panel);
             this.Controls.Add(this.Voidcrypt_LeftPanel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -183,12 +212,12 @@ namespace Voidcrypt.Forms
             this.Name = "Voidcrypt_Main_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Voidcrypt";
-            this.Load += new System.EventHandler(this.Voidcrypt_Main_Form_Load);
             this.Voidcrypt_LeftPanel.ResumeLayout(false);
             this.Voidcrypt_ExpandLeftPanel.ResumeLayout(false);
             this.Voidcrypt_TopLogoPanel.ResumeLayout(false);
             this.Voidcrypt_TopLogoPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Void_IDE_TopLogoPictureBox)).EndInit();
+            this.Top_Panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -197,7 +226,7 @@ namespace Voidcrypt.Forms
 
         private System.Windows.Forms.Panel Voidcrypt_LeftPanel;
         private System.Windows.Forms.Panel Voidcrypt_ExpandLeftPanel;
-        private System.Windows.Forms.Panel SideNavigationPanel;
+        private System.Windows.Forms.Panel nav_panel;
         private System.Windows.Forms.Button settings_button;
         private System.Windows.Forms.Button decryptor_button;
         private System.Windows.Forms.Button encryptor_button;
@@ -205,5 +234,7 @@ namespace Voidcrypt.Forms
         private System.Windows.Forms.Label Logo_Label;
         private System.Windows.Forms.PictureBox Void_IDE_TopLogoPictureBox;
         private System.Windows.Forms.Panel Top_Panel;
+        private User_Controls.decrypt_ucontrol decrypt_ucontrol1;
+        private User_Controls.encrypt_ucontrol encrypt_ucontrol1;
     }
 }

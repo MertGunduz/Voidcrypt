@@ -105,7 +105,6 @@
     <None Include="Resources\Voidcrypt_Logo.png" />
     <None Include="Resources\Voidcrypt_KeyIcon.png" />
     <None Include="Resources\Voidcrypt_LockIcon.png" />
-    <None Include="Resources\Voidcrypt_SettingsIcon.png" />
     <None Include="Resources\Voidcrypt_StatisticsIcon.png" />
     <None Include="Resources\Voidcrypt_ExitIcon.png" />
     <None Include="Resources\Voidcrypt_MinimizeIcon.png" />

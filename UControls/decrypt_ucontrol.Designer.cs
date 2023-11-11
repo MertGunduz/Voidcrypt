@@ -123,7 +123,7 @@ namespace Voidcrypt.User_Controls
             this.normal_textbox.Name = "normal_textbox";
             this.normal_textbox.Size = new System.Drawing.Size(360, 522);
             this.normal_textbox.TabIndex = 1;
-            this.normal_textbox.Text = "NORMAL TEXT";
+            this.normal_textbox.Text = "";
             // 
             // EncryptedTextLabel
             // 
@@ -135,7 +135,7 @@ namespace Voidcrypt.User_Controls
             this.EncryptedTextLabel.Name = "EncryptedTextLabel";
             this.EncryptedTextLabel.Size = new System.Drawing.Size(392, 39);
             this.EncryptedTextLabel.TabIndex = 1;
-            this.EncryptedTextLabel.Text = "Normal Text";
+            this.EncryptedTextLabel.Text = "NORMAL TEXT";
             this.EncryptedTextLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LeftPanel
@@ -166,7 +166,7 @@ namespace Voidcrypt.User_Controls
             this.encrypted_textbox.Name = "encrypted_textbox";
             this.encrypted_textbox.Size = new System.Drawing.Size(360, 522);
             this.encrypted_textbox.TabIndex = 2;
-            this.encrypted_textbox.Text = "ENCRYPTED TEXT";
+            this.encrypted_textbox.Text = "";
             // 
             // NormalTextLabel
             // 
@@ -178,16 +178,16 @@ namespace Voidcrypt.User_Controls
             this.NormalTextLabel.Name = "NormalTextLabel";
             this.NormalTextLabel.Size = new System.Drawing.Size(392, 39);
             this.NormalTextLabel.TabIndex = 0;
-            this.NormalTextLabel.Text = "Encrypted Text";
+            this.NormalTextLabel.Text = "ENCRYPTED TEXT";
             this.NormalTextLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // VoidDecryptor_UserControl
+            // decrypt_ucontrol
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.Controls.Add(this.MidExpandPanel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Name = "VoidDecryptor_UserControl";
+            this.Name = "decrypt_ucontrol";
             this.Size = new System.Drawing.Size(1045, 617);
             this.MidExpandPanel.ResumeLayout(false);
             this.MidSmallPanel.ResumeLayout(false);
