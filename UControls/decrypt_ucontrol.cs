@@ -19,9 +19,9 @@ namespace Voidcrypt.User_Controls
         {
             encrypted_text = encrypted_textbox.Text;
 
-            byte[] decrypted_bits = Convert.FromBase64String(encrypted_text);
+            byte[] bytes = Convert.FromBase64String(encrypted_text);
 
-            decrypted_text = ASCIIEncoding.ASCII.GetString(decrypted_bits);
+            decrypted_text = ASCIIEncoding.ASCII.GetString(bytes);
 
             normal_textbox.Text = decrypted_text;
         }
